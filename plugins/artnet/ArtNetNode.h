@@ -651,7 +651,7 @@ class ArtNetNodeImpl {
   // port (universe) limit.
   static const unsigned int RDM_REQUEST_QUEUE_LIMIT = 100;
   // How long to wait for a response to an RDM Request
-  static const unsigned int RDM_REQUEST_TIMEOUT_MS = 2000;
+  static const unsigned int RDM_REQUEST_TIMEOUT_MS = 130;
 
   DISALLOW_COPY_AND_ASSIGN(ArtNetNodeImpl);
 };
