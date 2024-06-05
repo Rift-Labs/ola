@@ -1,4 +1,8 @@
+Update build system
 
+    sudo apt update
+    sudo apt install devscripts
+    sudo apt install debhelper dh-autoreconf dh-python libftdi1-dev python3-numpy
 
 Configure the repo and build the release tarball:
 
